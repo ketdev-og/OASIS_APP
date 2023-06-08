@@ -1,0 +1,13 @@
+
+    <ul>
+        <li *ngFor="let restaurant of RestaurantList" class="restaurant">
+                    <div class="restaurant_item">
+                        <img class="rounded-circle" src="{{restaurant.photoUrl}}">
+                        <h3 class="name">{{restaurant.name}}</h3>
+                        <p class="title">{{restaurant.phone}}</p>
+                        <p class="description">{{restaurant.email}}</p>
+                        <button type="button" class="btn btn-primary btn-round mr-md-3 mb-md-0 mb-2" [routerLink]="['/restaurant', restaurant.id]">View Restaurant</button>
+                    </div>
+                    
+        </li>
+    </ul>

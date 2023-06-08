@@ -1,0 +1,20 @@
+
+.origin{
+    display: flex;
+    align-items: center;
+    padding: 0.4rem;
+    flex-direction: column;
+}
+
+.search{
+    cursor: pointer;
+}
+.search:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+
+.search_container{
+    width: 40%;
+}
+

@@ -1,0 +1,69 @@
+
+
+.testimonial-card .card-up {
+    
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.aqua-gradient {
+  background: linear-gradient(40deg, #2096ff, #9fd0fc) !important;
+}
+
+.testimonial-card .avatar {
+  width: 120px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.location p, .meals p{
+    color: #585858;
+}
+
+.location ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: #585858;
+}
+
+.meals ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: #585858;
+}
+
+.meals li {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 1rem;
+}
+.meals .photo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 5px solid rgb(238, 238, 238);
+}
+
+.meals .timing{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.meals .timing p{
+    color: #2096ff;
+}
